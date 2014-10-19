@@ -66,13 +66,15 @@ You should do the following for each exercise you attempt:
 ##Revision exercises
 Attempt these tasks if you need to build your confidence and understanding of iteration statements.
 
-1. Write a program that will print ‘Hello World’ 10 times.
-2. Write a program that will ask the user for a message and the number of times they want that message displayed. Then output the message that number of times.
+1. Write a program that will print ‘Hello World’ 10 times. **DONE**
+2. Write a program that will ask the user for a message and the number of times they want that message displayed. Then output the message that number of times. **Done**
 3. Write a program that asks the user to enter how many numbers are to be averaged, then enter this number of numbers, calculating the average. The program should display the average
-on the screen.
-4. Write a program that asks a user for a number between 10 and 20 inclusive. The program should give the user a message if the number input is outside this range and ask for another number until the number input is within range.
+on the screen.**DONE**
+4. Write a program that asks a user for a number between 10 and 20 inclusive. The program should give the user a message if the number input is outside this range and ask for another number until the number input is within range.**Done**
 5. Write a program that calculates the average of a series of numbers. Ask the user to enter a series of numbers, entering the rogue value -1 when they have finished. Then calculate the average of those numbers.
+**Incomplete**
 6. Write a program that displays a conversion table for pounds to kilograms, ranging from 1 pound to 20 pounds [1 kg = 2.2 pounds]. The values should be shown in neat columns.
+
 
 ##Development exercises
 Attempt these tasks if you are confident in your understanding but feel you need more practice
