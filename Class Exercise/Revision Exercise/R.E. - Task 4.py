@@ -1,4 +1,3 @@
-
 number = 0
 while number < 1 or number > 20:
     number = int(input("Please enter a number between 10 and 20: "))
