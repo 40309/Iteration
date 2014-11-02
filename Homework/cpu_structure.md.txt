@@ -1,0 +1,109 @@
+#CPU Structure Homework
+
+You should refer to the **homework policy** for details on how this homework should be submitted.
+
+**Attempt all questions and show all working.**
+
+##Question 1
+Some of the components of a computer system are:
+
+- processor
+- main memory
+- address bus
+- data bus
+- control bus
+- I/O port
+- secondary storage
+
+![](https://www.dropbox.com/s/iz0wz7kr1ltjt6o/cpu_diagram.jpg?dl=1)
+
+The diagram above shows how these components are connected.
+
+1. Using the list of components above name each of the following:
+
+    1. *answer here*
+    2. *answer here*
+    3. *answer here*
+    4. *answer here*
+    5. *answer here*
+
+    (**5 marks**)
+
+##Question 2
+What is the function of the following components:
+
+1. **processor**:
+2. **main memory**:
+3. **secondary storage**:
+
+(**3 marks**)
+
+##Question 3
+Give **two** examples of a signal carried by the control bus.
+
+1. *answer here*
+2. *answer here*
+
+(**2 marks**)
+
+##Question 4
+Apart from data, what else is carried on the data bus?
+
+(**1 mark**)
+
+##Question 5
+A single accumulator microprocessor supports the assembly language instructions:
+
+```
+LOAD memory reference
+ADD memory reference
+STORE memory reference
+```
+
+An example instruction is:
+
+```
+LOAD 4
+```
+
+This instruction would copy the contents of the referenced memory location **4** into the accumulator register.
+
+1. Identify which part of the instruction is the __*operand*__ and which part is the __*opcode*__ by writing the words in the two table below.
+
+    |LOAD|4|
+    |----|-|
+    | | |
+
+    (**1 mark**)
+
+2. The accumulator is a general purpose register. Define the term register? (**1 mark**)
+3. Using the given assembly language instructions, write an assembly language program that adds together the values stored in memory locations 12 and 13, storing the resulting total in memory location 14. (**3 marks**)
+
+##Question 6
+The diagram below shows the fetch-execute cycle. Some of the steps have been described.
+
+![](https://www.dropbox.com/s/xzt95i7xa8hghef/fe_cycle.jpg?dl=1)
+
+Describe the missing steps, using either register transfer notation of a written description. Steps 2 and 3 occur at the same time.
+
+1. *answer here*
+2. `PC ← [PC] + 1` or *increment contents of program counter register*
+3. *answer here*
+4. `CIR ← [MBR]` or *transfer contents of memory buffer register to current instruction register*
+5. *answer here*
+6. `[CIR] decode and execute` or *execute instruction in current instruction register*
+
+(**3 marks**)
+
+##Question 7
+What would the effect on the performance of the computer system of increasing the
+
+1. width of the data bus?
+2. width of the address bus?
+3. clock speed?
+
+(**3 marks**)
+
+**Total 22 marks**
+
+

@@ -42,3 +42,17 @@ Revision Exercise Test Data
 |21|Too High|Too High|Yes
 |11|Okay|Okay|Yes|
 |9|Too Low|Too Low|Yes|
+
+>Task 5
+>*All answer have been rounded to 3 decimal places*
+
+|Input|Expected Result|Actual Result|Did Expected Result Match Actual Result?|
+|-|--|--|-|
+|5,6,4,-1|5|5|Yes|
+|-1|Nothing Happens|ZeroDivisionError|No|
+|86,75,56,100,95,81,79,-1|81.714|81.714|Yes|
+|1,-1|1|1|Yes|
+|26,1,18,19,-1|16|16|Yes|
+
+>Task  6
+No need for Test Data
