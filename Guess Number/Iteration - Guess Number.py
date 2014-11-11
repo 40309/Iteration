@@ -4,9 +4,7 @@
 
 def main():
  
-    import random
-
-    random_number = random.randrange(1,100)
+   
     guess_number = 0
     count = 0
 
@@ -19,7 +17,7 @@ def main():
         elif guess_number < random_number:
             count = count + 1
             print("Your number is too low, try a higher number.")
-        elif guess_number > random_number:
+        elif guess_number > random_number and guess_number <= 100:
             count = count +1
             print("Your number is too high, try a lower number.")
         else:
